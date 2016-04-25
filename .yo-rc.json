@@ -1,0 +1,17 @@
+{
+  "generator-plugin-wp": {
+    "name": "Signature Widget",
+    "homepage": "http://technosiren.com",
+    "description": "A handy widget for adding doodles and handwritten words to the margins of your site.",
+    "version": "0.0.1",
+    "author": "Brianna Privett",
+    "authoremail": "song@technosiren.com",
+    "authorurl": "http://technosiren.com",
+    "license": "GPLv2",
+    "slug": "signature-widget",
+    "classname": "Signature_Widget",
+    "classprefix": "SW_",
+    "prefix": "signature_widget",
+    "year": 2016
+  }
+}

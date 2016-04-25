@@ -1,0 +1,27 @@
+{
+	"name": "signature-widget",
+	"title": "Signature Widget",
+	"version": "0.0.1",
+	"description": "A handy widget for adding doodles and handwritten words to the margins of your site.",
+	"author": {
+		"name": "Brianna Privett",
+		"url": "http://technosiren.com"
+	},
+	"license": "GPLv2",
+	"devDependencies": {
+		"grunt": "latest",
+		"grunt-contrib-watch": "latest",
+		"grunt-wp-i18n": "latest",
+		"grunt-contrib-copy": "latest",
+		"grunt-text-replace": "latest",
+		"grunt-contrib-clean": "latest",
+		"grunt-contrib-compress": "latest",
+		"grunt-wp-deploy": "latest",
+		"load-grunt-tasks": "latest"
+	},
+	"scripts": {
+		"test": "dockunit",
+		"preversion": "npm test",
+		"version": "grunt version && git add ."
+	}
+}
