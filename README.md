@@ -10,7 +10,7 @@
 
 ## Description ##
 
-A handy widget for adding doodles and handwritten words to the margins of your site.
+A handy widget for adding doodles and handwritten words to the margins of your site, using Signature Pad by szimek, based on an implementation by Square. https://github.com/szimek/signature_pad
 
 ## Installation ##
 
